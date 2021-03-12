@@ -7,22 +7,18 @@ body {
 	margin: 0px;
     text-align: center;
 }
-
 a {
     text-decoration: none;
     color: rgba(0,0,0,0.5);
     font-style: italic;
     transition: 0.4s;
 }
-
 a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
-
 div {
 	transition: linear 0.2s;
 }
-
 #container {
     width: 480px;
     height: 480px;
@@ -41,7 +37,7 @@ div {
 .square {
     width: 60px;
     height: 60px;
-    background: white;
+    background: #e67e22;
     display: inline-block;
     margin-right: 30px;
 }
@@ -55,4 +51,22 @@ div {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
+}
+#third-row .circle {
+    background: #de6868;
+}
+.row .circle:first-child {
+    opacity: 0;
+}
+.circle.fancy {
+    border: 4px dotted rgba(15, 15, 15, 0.25);
+}
+.green, .fancy {
+background: #6392c0;
+}
+.circle:hover{
+    opacity: 0.5;
+}
+#second-row > .circle:hover{
+    transform: scale(1.25);
 }
