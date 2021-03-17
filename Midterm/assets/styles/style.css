@@ -74,6 +74,7 @@ nav a {
   border-bottom: 4px solid rgb(0, 0, 0);
 }
 #image-display {
+    margin: 20px 0;
     padding: 0;
     background-color: rgb(240, 236, 238);
 }
@@ -138,15 +139,18 @@ footer p{
     width: 30%;
 }
 .story-text p{
-    font-size: 15px;
+    font-size: 17px;
 }
 .menu-div {
-    height: 420px;
+    height: 450px;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.menu-name {
+    margin-left: 10px;
 }
 .menu-name h1{
     font-size: 24px;
@@ -157,6 +161,7 @@ footer p{
 }
 .menu-name h3{
     font-size: 15px;
+    color: rgb(57, 111, 211);
 }
 .menu-name p{
     font-size: 12px;
