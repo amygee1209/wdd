@@ -1,3 +1,191 @@
+body {
+    font-family: 'Reem Kufi', sans-serif;
+    background-color: #FADFDF;
+    margin: 0;
+}
+.center-display {
+    align-items: center;
+    width: 65%;
+    margin: auto;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 9rem;
+}
+nav {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.main-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    align-items: center;
+    width: 25%;
+}
+.navbar-left {
+    justify-content: space-between;
+}
+.navbar-right {
+    justify-content: flex-end;
+}
 .logo {
-    width: 80px;
+    width: 60px;
+}
+.main-logo h1 {
+    font-size: 28px;
+    margin-top: 3px;
+}
+.navbar-logo {
+    height: 22px;
+}
+.navbar-items h3 {
+    font-size: 22px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-items a:hover {
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+.find-us-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-find-text {
+    padding: 0 7px 0 20px;
+}
+.icon-clicked {
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+#image-display {
+    padding: 0;
+    background-color: rgb(240, 236, 238);
+}
+.donut-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.donut-item {
+    width: 33.3%;
+    opacity: 0.6;
+}
+.donut-item:hover {
+    opacity: 1;
+}
+.footer-up {
+    height: 100px;
+    background-color: #FADFDF;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+}
+.footer-logo {
+    height: 15px;
+    margin-right: 12px;
+}
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 20px;
+}
+.story-text {
+    width: 65%;
+}
+.story-top h2 {
+    font-size: 30px;
+}
+.story-top {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about-icon {
+    height: 80px;
+    margin-right: 10px;
+}
+.story-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-img {
+    width: 30%;
+}
+.story-text p{
+    font-size: 15px;
+}
+.menu-div {
+    height: 420px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-name h1{
+    font-size: 24px;
+    color: red;
+}
+.menu-name h2{
+    font-size: 18px;
+}
+.menu-name h3{
+    font-size: 15px;
+}
+.menu-name p{
+    font-size: 12px;
+}
+.left-nav-bar {
+    width: 20%;
+    margin-top: 3px;
+}
+.right-menu-content{
+    width: 75%;
+    margin-top: 15px;
+}
+.left-nav-bar h4 {
+    font-size: 20px;
+}
+.left-nav-bar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.left-nav-bar a:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.find-text {
+    width: 27%;
+}
+.find-text h2{
+    font-size: 22px;
+}
+.find-text h3{
+    font-size: 18px;
+    color: rgb(87, 86, 86)
 }
